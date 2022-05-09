@@ -17,7 +17,7 @@ This quickstart is set up with:
 4. Build, push, and deploy
   ```shell
   yarn build
-  nullstone launch --source=./dist --app=<app-name> --env=<env-name>
+  nullstone launch --source=./build --app=<app-name> --env=<env-name>
   ```
 
 ## Running locally
