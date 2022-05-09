@@ -5,7 +5,6 @@ This is based off the official [Create React App](https://github.com/facebook/cr
 
 This quickstart is set up with:
 - React 18
-- Typescript
 
 ## How to launch via Nullstone
 
