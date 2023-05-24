@@ -4,6 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// This is an example of how to load env.json
+// It should execute quickly because we added a prefetch to index.html
+fetch('env.json')
+    .then(res => res.json())
+    .then(data => console.log(data));
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
