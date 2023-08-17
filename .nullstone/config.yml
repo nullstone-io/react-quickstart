@@ -2,7 +2,7 @@ version: "0.1"
 
 subdomains:
   react-subdomain:
-    module: nullstone/aws-autogen-subdomain
+    module: nullstone/autogen-aws-subdomain
 
 apps:
   react-quickstart:
